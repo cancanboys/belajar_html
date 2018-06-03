@@ -1,4 +1,45 @@
-p[title] {
+* {
+  margin: 0;
+}
+
+body {
+  font-size: 12px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.satu {
+  font-family: Garamond;
+  font-size: 1.7em;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+}
+
+.dua {
   color: red;
-  font-family: monospace;
+  font-family: Garamond;
+  font-size: 1.7em;
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: oblique;
+  text-align: center;
+}
+
+.tiga {
+  font-size: 1.7em;
+  /* background: #1e5474; */
+  font-family: Garamond;
+  font-weight: bold;
+  font-style: italic;
+  text-align: right;   
+}
+
+.justified {
+  text-align: justify;
+  font-size: 1.7em;
+  font-weight: bold;
+  font-family: Garamond;
 }
